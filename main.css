@@ -1,0 +1,131 @@
+css
+/* main.css */
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d0f3bf;
+}
+
+/* Splashscreen styles */
+.splashscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preloader__text {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+.navigation__logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navigation__list {
+  list-style: none;
+  display: flex;
+}
+
+.navigation__list li {
+  margin-right: 10px;
+}
+
+.navigation__list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main section styles */
+main {
+  padding: 20px;
+}
+
+.work__heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.work img {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styles */
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Additional Styles */
+
+/* Add a gradient background to the header */
+.header {
+  background: linear-gradient(to right, #333, #555);
+}
+
+/* Add a border-bottom to the navigation logo */
+.navigation__logo {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+}
+
+/* Add a hover effect to the navigation links */
+.navigation__list li a:hover {
+  color: #ff6b6b;
+}
+
+/* Add a background color and padding to the paragraphs */
+p {
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+/* Add a border and box-shadow to the images */
+.work img {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Change the color of the footer text */
+.footer {
+  color: #ccc;
+}  
